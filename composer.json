@@ -1,0 +1,25 @@
+{
+  "name": "pmpr-pkg/wp-pkg-contact",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Contact Package for Wordpress",
+  "keywords": [
+    "wordpress",
+    "contact",
+    "contact-us",
+    "package"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "pmpr-cmn/wp-cmn-foundation": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Package\\Contact\\": "src/Pmpr/Package/Contact"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}

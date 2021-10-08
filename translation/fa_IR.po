@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Contact\n"
+"POT-Creation-Date: 2021-05-19 18:49+0430\n"
+"PO-Revision-Date: 2021-05-19 18:52+0430\n"
+"Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Package/Contact/Contact.php:49
+msgid "Google Map Location"
+msgstr "نقشه مکانی گوگل مپ"
+
+#: src/Pmpr/Package/Contact/Contact.php:64 src/Pmpr/Package/Contact/Page.php:28
+msgid "Contact"
+msgstr "ارتباط با ما"
+
+#: src/Pmpr/Package/Contact/Contact.php:85
+msgid "Working Days"
+msgstr "روز‌های کاری"
+
+#: src/Pmpr/Package/Contact/Contact.php:91
+#: src/Pmpr/Package/Contact/Setting.php:187
+msgid "Working Hours"
+msgstr "ساعات کاری"
+
+#: src/Pmpr/Package/Contact/Page.php:61
+#: src/Pmpr/Package/Contact/Submission.php:162
+msgid "Subject"
+msgstr "موضوع"
+
+#: src/Pmpr/Package/Contact/Page.php:67
+msgid "Your Message"
+msgstr "پیام شما"
+
+#: src/Pmpr/Package/Contact/Page.php:80
+msgid "Submit"
+msgstr "تایید"
+
+#: src/Pmpr/Package/Contact/Page.php:89
+#: src/Pmpr/Package/Contact/Submission.php:159
+msgid "Name"
+msgstr "نام"
+
+#: src/Pmpr/Package/Contact/Page.php:95
+#: src/Pmpr/Package/Contact/Setting.php:161
+#: src/Pmpr/Package/Contact/Submission.php:165
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/Pmpr/Package/Contact/Page.php:103
+#: src/Pmpr/Package/Contact/Submission.php:171
+msgid "Website"
+msgstr "وب سایت"
+
+#: src/Pmpr/Package/Contact/Page.php:109
+#: src/Pmpr/Package/Contact/Setting.php:160
+#: src/Pmpr/Package/Contact/Submission.php:168
+msgid "Phone"
+msgstr "تلفن"
+
+#: src/Pmpr/Package/Contact/Page.php:118
+#, php-format
+msgid "Logged in as %s."
+msgstr "با عنوان %s وارد شده‌اید."
+
+#: src/Pmpr/Package/Contact/Page.php:125
+msgid "Log out?"
+msgstr "خارج می‌شوید؟"
+
+#: src/Pmpr/Package/Contact/Setting.php:76
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Package/Contact/Setting.php:77
+msgid "Contact Setting"
+msgstr "تنظیمات ارتباط‌ با ما"
+
+#: src/Pmpr/Package/Contact/Setting.php:83
+#: src/Pmpr/Package/Contact/Setting.php:85
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Package/Contact/Setting.php:89
+msgid "Enable Contact"
+msgstr "فعال سازی ارتباط با ما"
+
+#: src/Pmpr/Package/Contact/Setting.php:90
+msgid "Check this item to enable contact form functionality."
+msgstr "با علامت زدن این گزینه، عملکرد فرم ارتباط با ما فعال می‌شود."
+
+#: src/Pmpr/Package/Contact/Setting.php:95
+msgid "IP Collection"
+msgstr "نگه‌داری آی پی"
+
+#: src/Pmpr/Package/Contact/Setting.php:96
+msgid "Check this item to enable collection of ip addresses."
+msgstr "با علامت زدن این گزینه، آی پی کاربران ذخیره خواهد شد."
+
+#: src/Pmpr/Package/Contact/Setting.php:101
+#: src/Pmpr/Package/Contact/Setting.php:103
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: src/Pmpr/Package/Contact/Setting.php:105
+msgid "Send Message Time Limit"
+msgstr "محدودیت زمانی ارسال پیام"
+
+#: src/Pmpr/Package/Contact/Setting.php:106
+msgid "Time limit for the user to resubmit a new message."
+msgstr "تعیین محدودیت زمانی ارسال دوباره پیام جدید توسط کاربر."
+
+#: src/Pmpr/Package/Contact/Setting.php:111
+msgid "Thanks Message"
+msgstr "پیغام تشکر"
+
+#: src/Pmpr/Package/Contact/Setting.php:112
+msgid "Displayed to user after successful form submission."
+msgstr "پس از ارسال موفق پیام، به کاربر نمایش داده می‌شود."
+
+#: src/Pmpr/Package/Contact/Setting.php:113
+#: src/Pmpr/Package/Contact/Setting.php:120
+msgid "Thank you! You will receive a response as soon as possible."
+msgstr "متشکرم، در کمترین زمان ممکن پاسخ ما را دریافت خواهید کرد."
+
+#: src/Pmpr/Package/Contact/Setting.php:118
+msgid "Reply Message"
+msgstr "پاسخ پیام"
+
+#: src/Pmpr/Package/Contact/Setting.php:119
+msgid ""
+"Sent back to sender as reply message after form submission throw "
+"confirmation email."
+msgstr "پاسخ پیام کاربرکه از طریق ایمیل ارسال می‌شود."
+
+#: src/Pmpr/Package/Contact/Setting.php:125
+msgid "Limitation Message"
+msgstr "پیام محدودیت زمانی"
+
+#: src/Pmpr/Package/Contact/Setting.php:126
+msgid "Displayed to user if already sent a message."
+msgstr ""
+"در صورتی که کاربر قبل از اتمام محدودیت زمانی، پیام جدیدی را ارسال کند، نمایش "
+"داده می‌شود."
+
+#: src/Pmpr/Package/Contact/Setting.php:127
+#, php-format
+msgid "Sorry, you send a Message less than %s hour ago, please try letter."
+msgstr ""
+"شما کمتر از %s ساعت پیش یک پیام ارسال کرده‌اید، لطفا بعدا دوباره تلاش کنید."
+
+#: src/Pmpr/Package/Contact/Setting.php:131
+#: src/Pmpr/Package/Contact/Setting.php:133
+msgid "Information"
+msgstr "اطلاعات"
+
+#: src/Pmpr/Package/Contact/Setting.php:137
+msgid "Enable Contact Information"
+msgstr "فعال سازی اطلاعات تماس"
+
+#: src/Pmpr/Package/Contact/Setting.php:138
+msgid "Check this item to show contact information on front"
+msgstr "برای نمایش اطلاعات تماس در سایت این گزینه‌را علامت بزنید"
+
+#: src/Pmpr/Package/Contact/Setting.php:142
+msgid "Contact Info"
+msgstr "اطلاعات تماس"
+
+#: src/Pmpr/Package/Contact/Setting.php:146
+#: src/Pmpr/Package/Contact/Setting.php:268
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Package/Contact/Setting.php:153
+msgid "Showing Value"
+msgstr "مقدار نمایشی"
+
+#: src/Pmpr/Package/Contact/Setting.php:158
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Package/Contact/Setting.php:162
+msgid "Other"
+msgstr "سایر"
+
+#: src/Pmpr/Package/Contact/Setting.php:175
+msgid "Enable Opening Hours"
+msgstr "فعال کردن بخش ساعات کاری"
+
+#: src/Pmpr/Package/Contact/Setting.php:181
+msgid "Working days"
+msgstr "روز‌های کاری"
+
+#: src/Pmpr/Package/Contact/Setting.php:189
+msgid "Opening Hours"
+msgstr "ساعات کاری"
+
+#: src/Pmpr/Package/Contact/Setting.php:193
+#: src/Pmpr/Package/Contact/Setting.php:195
+msgid "Location"
+msgstr "مکان"
+
+#: src/Pmpr/Package/Contact/Setting.php:199
+msgid "Enable Google Map"
+msgstr "فعال‌ سازی نقشه گوگل"
+
+#: src/Pmpr/Package/Contact/Setting.php:200
+msgid "Check this item to show location on front."
+msgstr ""
+"با علامت زدن این گزینه، اطلاعات مکانی در بخش نمایشی سایت نمایش داده خواهد شد."
+
+#: src/Pmpr/Package/Contact/Setting.php:205
+msgid "Markup"
+msgstr "مارکاپ"
+
+#: src/Pmpr/Package/Contact/Setting.php:206
+msgid ""
+"Go to maps.google.com, find and click your location, choose share from "
+"sidebar and on Embed a map click COPY HTML and paste here."
+msgstr ""
+
+#: src/Pmpr/Package/Contact/Setting.php:215
+msgid "Height"
+msgstr "ارتفاع"
+
+#: src/Pmpr/Package/Contact/Setting.php:216
+#, php-format
+msgid "Height of map in footer (min = %s, max = %s)."
+msgstr "ارتفاع نقشه (‌کمترین = %s، بیشترین =%s )."
+
+#: src/Pmpr/Package/Contact/Setting.php:224
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: src/Pmpr/Package/Contact/Setting.php:226
+msgid "Location preview on Google Maps"
+msgstr "پیش‌نمایش نقشه گوگل"
+
+#: src/Pmpr/Package/Contact/Setting.php:232
+msgid "Address"
+msgstr "آدرس"
+
+#: src/Pmpr/Package/Contact/Setting.php:238
+msgid "Direction"
+msgstr "مسیریابی"
+
+#: src/Pmpr/Package/Contact/Setting.php:242
+#: src/Pmpr/Package/Contact/Setting.php:311
+msgid "Google Map Direction"
+msgstr "مسیریابی نقشه گوگل"
+
+#: src/Pmpr/Package/Contact/Setting.php:247
+#: src/Pmpr/Package/Contact/Setting.php:321
+msgid "Waze Direction"
+msgstr "مسیریابی ویز"
+
+#: src/Pmpr/Package/Contact/Setting.php:254
+#: src/Pmpr/Package/Contact/Setting.php:258
+msgid "Social"
+msgstr "شبکه‌های اجتماعی"
+
+#: src/Pmpr/Package/Contact/Setting.php:262
+msgid "Social Networks"
+msgstr "شبکه‌های اجتماعی"
+
+#: src/Pmpr/Package/Contact/Setting.php:269
+msgid "Use as alt"
+msgstr "استفاده به عنوان توضیح تصویر"
+
+#: src/Pmpr/Package/Contact/Setting.php:274
+msgid "Url"
+msgstr "پیوند"
+
+#: src/Pmpr/Package/Contact/Setting.php:279
+msgid "Priority"
+msgstr "اولویت"
+
+#: src/Pmpr/Package/Contact/Submission.php:35
+msgid "Submission"
+msgstr "پیام‌"
+
+#: src/Pmpr/Package/Contact/Submission.php:36
+msgid "Submissions"
+msgstr "پیام‌ها"
+
+#: src/Pmpr/Package/Contact/Submission.php:67
+msgid "Your website address is not valid."
+msgstr ""
+"آدرس وب‌سایت شما معتبر نیست. لطفا یک آدرس معتبر وارد کنید و یا خالی بگذارید."
+
+#: src/Pmpr/Package/Contact/Submission.php:73
+msgid "Please specify owner."
+msgstr ""
+
+#: src/Pmpr/Package/Contact/Submission.php:80
+#: src/Pmpr/Package/Contact/Submission.php:92
+#, php-format
+msgid "Please enter at least %s characters."
+msgstr "لطفا بیش از %s کاراکتر وارد کنید."
+
+#: src/Pmpr/Package/Contact/Submission.php:99
+#: src/Pmpr/Package/Contact/Submission.php:107
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "لطفا یک %s معتبر وارد کنید."
+
+#: src/Pmpr/Package/Contact/Submission.php:99
+msgid "Email Address"
+msgstr "پست الکترونیکی"
+
+#: src/Pmpr/Package/Contact/Submission.php:107
+msgid "Phone Number"
+msgstr "شماره تماس"
+
+#: src/Pmpr/Package/Contact/Submission.php:113
+msgid "Please fill this input."
+msgstr "لطفا این فیلد  را پر کنید."
+
+#: src/Pmpr/Package/Contact/Submission.php:174
+msgid "Message"
+msgstr "پیام"
+
+#: src/Pmpr/Package/Contact/Submission.php:177
+msgid "IP"
+msgstr "آی پی"
+
+#: src/Pmpr/Package/Contact/Submission.php:180
+msgid "Owner"
+msgstr "صاحب"
+
+#: src/Pmpr/Package/Contact/Widget/Information.php:18
+msgid "Contact Information"
+msgstr "اطلاعات تماس"
+
+#: src/Pmpr/Package/Contact/Widget/Information.php:18
+msgid "Display the contact information."
+msgstr "نمایش  اطلاعات تماس."
+
+#: src/Pmpr/Package/Contact/Widget/Information.php:29
+#: src/Pmpr/Package/Contact/Widget/Social.php:29
+msgid "leave empty if you want to show all items."
+msgstr ""
+"اگر می‌خواهید تمامی آیتم‌های موجود نمایش داده شود،‌لطفا این فیلد را خالی "
+"بگذارید."
+
+#: src/Pmpr/Package/Contact/Widget/Information.php:30
+msgid "Include Information"
+msgstr "شامل اطلاعات"
+
+#: src/Pmpr/Package/Contact/Widget/Social.php:18
+msgid "Social Items"
+msgstr "شبکه‌های اجتماعی"
+
+#: src/Pmpr/Package/Contact/Widget/Social.php:18
+msgid "Display the social items."
+msgstr "نمایش شبکه‌های اجتماعی"
+
+#: src/Pmpr/Package/Contact/Widget/Social.php:30
+msgid "Include Social"
+msgstr "شامل شبکه‌های اجتماعی"
+
+#~ msgid "Show in Header"
+#~ msgstr "نمایش در سر تیتر سایت"
+
+#~ msgid "Show in Footer"
+#~ msgstr "نمایش در پاورقی"
