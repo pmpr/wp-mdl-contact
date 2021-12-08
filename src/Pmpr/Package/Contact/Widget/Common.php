@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61afe1607e490             |
+    |             61b07ebdba9a0             |
     |_______________________________________|
 */
- namespace Pmpr\Package\Contact\Widget; use Pmpr\Common\Foundation\Widget; abstract class Common extends Widget { const ICON_SIZE = "\x69\x63\157\x6e\x5f\x73\151\x7a\x65"; }
+ namespace Pmpr\Package\Contact\Widget; use Pmpr\Common\Foundation\Widget; abstract class Common extends Widget { const ICON_SIZE = "\x69\x63\x6f\x6e\x5f\x73\151\x7a\145"; }
