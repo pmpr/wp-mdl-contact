@@ -379,3 +379,4 @@ msgstr "شامل شبکه‌های اجتماعی"
 
 #~ msgid "Show in Footer"
 #~ msgstr "نمایش در پاورقی"
+
