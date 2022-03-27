@@ -1,12 +1,13 @@
 {
-  "name": "pmpr-pkg/wp-pkg-contact",
+  "name": "pmpr-mod/wp-mod-contact",
   "type": "project",
   "license": "proprietary",
-  "description": "Contact Package for Wordpress",
+  "description": "Contact Module for Wordpress",
   "keywords": [
+    "contact-us",
     "wordpress",
     "contact",
-    "contact-us",
+    "module",
     "package"
   ],
   "require": {
@@ -15,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Package\\Contact\\": "src/Pmpr/Package/Contact"
+      "Pmpr\\Module\\Contact\\": "src/Pmpr/Module/Contact"
     },
     "files": [
       "index.php"

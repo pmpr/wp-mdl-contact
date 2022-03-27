@@ -4,4 +4,4 @@
     |             62400ad6ac7c1             |
     |_______________________________________|
 */
- use Pmpr\Module\Contact\Contact; Contact::symcgieuakksimmu();
+ namespace Pmpr\Module\Contact\Widget; use Pmpr\Common\Foundation\Widget; abstract class Common extends Widget { }
