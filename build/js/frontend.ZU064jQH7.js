@@ -1,0 +1,1 @@
+PRFrontendHelper.getForm().onSubmit({messageWrapper:".contact-message",removeForm:!0,action:PRHelper.getSetting().getOption("ajax.submit_form"),form:"#contact_form"});
