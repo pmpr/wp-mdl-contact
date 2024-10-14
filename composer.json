@@ -1,33 +1,9 @@
 {
-  "name": "pmpr-mdl/wp-mdl-contact",
-  "type": "project",
-  "license": "proprietary",
-  "description": "Contact Module for Wordpress",
-  "keywords": [
-    "contact-us",
-    "wordpress",
-    "contact",
-    "module",
-    "package"
-  ],
-  "require": {
-    "php": ">=8.2",
-    "pmpr-cmn/wp-cmn-foundation": "~1.4"
-  },
   "prod-require": {
     "php": "8.2",
     "wordpress": "6.0",
     "wp-cmn-foundation": "latest"
   },
-  "autoload": {
-    "psr-4": {
-      "Pmpr\\Module\\Contact\\": "src/Pmpr/Module/Contact"
-    },
-    "files": [
-      "index.php"
-    ]
-  },
-  "minimum-stability": "dev",
-  "tag": "1.2.74",
-  "timestamp": "1726670994"
+  "tag": "1.2.75",
+  "timestamp": "1728924422"
 }
