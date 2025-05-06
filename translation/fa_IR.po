@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Contact\n"
-"POT-Creation-Date: 2024-10-15 01:30+0330\n"
-"PO-Revision-Date: 2024-10-15 01:31+0330\n"
+"POT-Creation-Date: 2025-05-06 16:40+0330\n"
+"PO-Revision-Date: 2025-05-06 16:40+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -58,7 +58,7 @@ msgid "Submissions"
 msgstr "پیام‌ها"
 
 #: src/Pmpr/Module/Contact/Model/Submission.php:40
-#: src/Pmpr/Module/Contact/Page.php:100
+#: src/Pmpr/Module/Contact/Page.php:102
 msgid "Subject"
 msgstr "موضوع"
 
@@ -71,22 +71,22 @@ msgid "Owner"
 msgstr "صاحب"
 
 #: src/Pmpr/Module/Contact/Model/Submission.php:56
-#: src/Pmpr/Module/Contact/Page.php:126
+#: src/Pmpr/Module/Contact/Page.php:128
 msgid "Name"
 msgstr "نام"
 
 #: src/Pmpr/Module/Contact/Model/Submission.php:78
-#: src/Pmpr/Module/Contact/Page.php:130 src/Pmpr/Module/Contact/Setting.php:153
+#: src/Pmpr/Module/Contact/Page.php:132 src/Pmpr/Module/Contact/Setting.php:136
 msgid "Email"
 msgstr "ایمیل"
 
 #: src/Pmpr/Module/Contact/Model/Submission.php:99
-#: src/Pmpr/Module/Contact/Page.php:110 src/Pmpr/Module/Contact/Setting.php:152
+#: src/Pmpr/Module/Contact/Page.php:112 src/Pmpr/Module/Contact/Setting.php:135
 msgid "Phone"
 msgstr "تلفن"
 
 #: src/Pmpr/Module/Contact/Model/Submission.php:120
-#: src/Pmpr/Module/Contact/Page.php:134
+#: src/Pmpr/Module/Contact/Page.php:136
 msgid "Website"
 msgstr "وب سایت"
 
@@ -126,22 +126,26 @@ msgstr ""
 msgid "Your request is not valid. refresh page an try again"
 msgstr "درخواست شما معتبر نیست، لطفا صفحه را رفرش کرده و مجدد امتحان کنید"
 
-#: src/Pmpr/Module/Contact/Page.php:104
+#: src/Pmpr/Module/Contact/Page.php:106
 msgid "Your Message"
 msgstr "پیام شما"
 
-#: src/Pmpr/Module/Contact/Page.php:118
+#: src/Pmpr/Module/Contact/Page.php:120
 msgid "Submit"
 msgstr "تایید"
 
-#: src/Pmpr/Module/Contact/Page.php:141
+#: src/Pmpr/Module/Contact/Page.php:143
 #, php-format
 msgid "Logged in as %s."
 msgstr "با عنوان %s وارد شده‌اید."
 
-#: src/Pmpr/Module/Contact/Page.php:146
+#: src/Pmpr/Module/Contact/Page.php:148
 msgid "Log out?"
 msgstr "خارج می‌شوید؟"
+
+#: src/Pmpr/Module/Contact/Page.php:339
+msgid "Send Message"
+msgstr "ارسال پیام"
 
 #: src/Pmpr/Module/Contact/Security.php:65
 msgid "Contact form"
@@ -151,172 +155,167 @@ msgstr "فرم تماس"
 msgid "Enable Recaptcha"
 msgstr "فعال سازی ری‌کپچا"
 
-#: src/Pmpr/Module/Contact/Setting.php:54
+#: src/Pmpr/Module/Contact/Setting.php:50
 msgid "Contact Setting"
 msgstr "تنظیمات ارتباط‌ با ما"
 
-#: src/Pmpr/Module/Contact/Setting.php:55
+#: src/Pmpr/Module/Contact/Setting.php:51
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Module/Contact/Setting.php:65
-msgid "Google Map Location"
-msgstr "نقشه مکانی گوگل مپ"
-
-#: src/Pmpr/Module/Contact/Setting.php:77
+#: src/Pmpr/Module/Contact/Setting.php:60
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Module/Contact/Setting.php:79
+#: src/Pmpr/Module/Contact/Setting.php:62
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
 
-#: src/Pmpr/Module/Contact/Setting.php:82
+#: src/Pmpr/Module/Contact/Setting.php:65
 msgid "Page Configuration"
 msgstr "پیکربندی صفحه"
 
-#: src/Pmpr/Module/Contact/Setting.php:86
+#: src/Pmpr/Module/Contact/Setting.php:69
 msgid "Contact Page"
 msgstr "صفحه تماس"
 
-#: src/Pmpr/Module/Contact/Setting.php:92
+#: src/Pmpr/Module/Contact/Setting.php:75
 msgid "Messages"
 msgstr "پیام‌ها"
 
-#: src/Pmpr/Module/Contact/Setting.php:96
+#: src/Pmpr/Module/Contact/Setting.php:79
 msgid "Send Message Time Limit"
 msgstr "محدودیت زمانی ارسال پیام"
 
-#: src/Pmpr/Module/Contact/Setting.php:97
+#: src/Pmpr/Module/Contact/Setting.php:80
 msgid "Time limit for the user to resubmit a new message."
 msgstr "تعیین محدودیت زمانی ارسال دوباره پیام جدید توسط کاربر."
 
-#: src/Pmpr/Module/Contact/Setting.php:101
+#: src/Pmpr/Module/Contact/Setting.php:84
 msgid "Thanks Message"
 msgstr "پیام تشکر"
 
-#: src/Pmpr/Module/Contact/Setting.php:102
+#: src/Pmpr/Module/Contact/Setting.php:85
 msgid "Displayed to user after successful form submission."
 msgstr "پس از ارسال موفق پیام، به کاربر نمایش داده می‌شود."
 
-#: src/Pmpr/Module/Contact/Setting.php:103
-#: src/Pmpr/Module/Contact/Setting.php:108
+#: src/Pmpr/Module/Contact/Setting.php:86 src/Pmpr/Module/Contact/Setting.php:91
 msgid "Thank you! You will receive a response as soon as possible."
 msgstr "متشکرم، در کمترین زمان ممکن پاسخ ما را دریافت خواهید کرد."
 
-#: src/Pmpr/Module/Contact/Setting.php:107
+#: src/Pmpr/Module/Contact/Setting.php:90
 msgid "Reply Message"
 msgstr "پاسخ پیام"
 
-#: src/Pmpr/Module/Contact/Setting.php:109
+#: src/Pmpr/Module/Contact/Setting.php:92
 msgid ""
 "Sent back to sender as reply message after form submission throw confirmation "
 "email."
 msgstr "پاسخ پیام کاربرکه از طریق ایمیل ارسال می‌شود."
 
-#: src/Pmpr/Module/Contact/Setting.php:113
+#: src/Pmpr/Module/Contact/Setting.php:96
 msgid "Limitation Message"
 msgstr "پیام محدودیت زمانی"
 
-#: src/Pmpr/Module/Contact/Setting.php:114
+#: src/Pmpr/Module/Contact/Setting.php:97
 msgid "Displayed to user if already sent a message."
 msgstr ""
 "در صورتی که کاربر قبل از اتمام محدودیت زمانی، پیام جدیدی را ارسال کند، نمایش "
 "داده می‌شود."
 
-#: src/Pmpr/Module/Contact/Setting.php:115
+#: src/Pmpr/Module/Contact/Setting.php:98
 #, php-format
 msgid "Sorry, you send a Message less than %s ago, please try letter."
 msgstr "شما کمتر از %s  پیش یک پیام ارسال کرده‌اید، لطفا بعدا دوباره تلاش کنید."
 
-#: src/Pmpr/Module/Contact/Setting.php:116
+#: src/Pmpr/Module/Contact/Setting.php:99
 msgid "Time Limit"
 msgstr "محدودیت زمانی ارسال پیام"
 
-#: src/Pmpr/Module/Contact/Setting.php:122
+#: src/Pmpr/Module/Contact/Setting.php:105
 msgid "Information"
 msgstr "اطلاعات"
 
-#: src/Pmpr/Module/Contact/Setting.php:124
+#: src/Pmpr/Module/Contact/Setting.php:107
 msgid "Contact & Social Data"
 msgstr "اطلاعات تماس و شبکه‌های اجتماعی"
 
-#: src/Pmpr/Module/Contact/Setting.php:127
+#: src/Pmpr/Module/Contact/Setting.php:110
 msgid "Communication Information"
 msgstr "اطلاعات تماس"
 
-#: src/Pmpr/Module/Contact/Setting.php:131
+#: src/Pmpr/Module/Contact/Setting.php:114
 msgid "Contact Info"
 msgstr "اطلاعات تماس"
 
-#: src/Pmpr/Module/Contact/Setting.php:134
-#: src/Pmpr/Module/Contact/Setting.php:177
-#: src/Pmpr/Module/Contact/Setting.php:233
+#: src/Pmpr/Module/Contact/Setting.php:117
+#: src/Pmpr/Module/Contact/Setting.php:160
+#: src/Pmpr/Module/Contact/Setting.php:216
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/Contact/Setting.php:138
+#: src/Pmpr/Module/Contact/Setting.php:121
 msgid "Subtext"
 msgstr "زیر متن"
 
-#: src/Pmpr/Module/Contact/Setting.php:142
+#: src/Pmpr/Module/Contact/Setting.php:125
 msgid "Info Value"
 msgstr "مقدار"
 
-#: src/Pmpr/Module/Contact/Setting.php:146
-#: src/Pmpr/Module/Contact/Setting.php:173
-#: src/Pmpr/Module/Contact/Setting.php:241
+#: src/Pmpr/Module/Contact/Setting.php:129
+#: src/Pmpr/Module/Contact/Setting.php:156
+#: src/Pmpr/Module/Contact/Setting.php:224
 msgid "Icon"
 msgstr "آیکون"
 
-#: src/Pmpr/Module/Contact/Setting.php:150
+#: src/Pmpr/Module/Contact/Setting.php:133
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Module/Contact/Setting.php:154
+#: src/Pmpr/Module/Contact/Setting.php:137
 msgid "Hours"
 msgstr "ساعات کاری"
 
-#: src/Pmpr/Module/Contact/Setting.php:155
-#: src/Pmpr/Module/Contact/Setting.php:185
+#: src/Pmpr/Module/Contact/Setting.php:138
+#: src/Pmpr/Module/Contact/Setting.php:168
 msgid "Location"
 msgstr "مکان"
 
-#: src/Pmpr/Module/Contact/Setting.php:156
+#: src/Pmpr/Module/Contact/Setting.php:139
 msgid "Other"
 msgstr "سایر"
 
-#: src/Pmpr/Module/Contact/Setting.php:162
+#: src/Pmpr/Module/Contact/Setting.php:145
 msgid "Social Media Information"
 msgstr "اطلاعات شبکه‌های اجتماعی"
 
-#: src/Pmpr/Module/Contact/Setting.php:166
+#: src/Pmpr/Module/Contact/Setting.php:149
 msgid "Social"
 msgstr "شبکه‌های اجتماعی"
 
-#: src/Pmpr/Module/Contact/Setting.php:169
-#: src/Pmpr/Module/Contact/Setting.php:237
+#: src/Pmpr/Module/Contact/Setting.php:152
+#: src/Pmpr/Module/Contact/Setting.php:220
 msgid "Link"
 msgstr "پیوند"
 
-#: src/Pmpr/Module/Contact/Setting.php:178
+#: src/Pmpr/Module/Contact/Setting.php:161
 msgid "Use as alt"
 msgstr "استفاده به عنوان توضیح تصویر"
 
-#: src/Pmpr/Module/Contact/Setting.php:187
+#: src/Pmpr/Module/Contact/Setting.php:170
 msgid "Map & Direction Data"
 msgstr "اطلاعات نقشه و مسیریابی"
 
-#: src/Pmpr/Module/Contact/Setting.php:190
+#: src/Pmpr/Module/Contact/Setting.php:173
 #: src/Pmpr/Module/Contact/Widget/Map.php:22
 msgid "Map"
 msgstr "نقشه"
 
-#: src/Pmpr/Module/Contact/Setting.php:194
+#: src/Pmpr/Module/Contact/Setting.php:177
 msgid "Markup"
 msgstr "مارکاپ"
 
-#: src/Pmpr/Module/Contact/Setting.php:196
+#: src/Pmpr/Module/Contact/Setting.php:179
 #, php-format
 msgid ""
 "Go to %s, find and click your location, choose share from sidebar and on "
@@ -326,33 +325,37 @@ msgstr ""
 "را انتخاب کرده و در تب Embed روی کپی اچ تی ام ال کلیک کنید و در این باکس "
 "جایگذاری کنید."
 
-#: src/Pmpr/Module/Contact/Setting.php:197
+#: src/Pmpr/Module/Contact/Setting.php:180
 msgid "Google Map"
 msgstr "نقشه گوگل"
 
-#: src/Pmpr/Module/Contact/Setting.php:202
+#: src/Pmpr/Module/Contact/Setting.php:185
 #: src/Pmpr/Module/Contact/Widget/Map.php:33
 msgid "Height"
 msgstr "ارتفاع"
 
-#: src/Pmpr/Module/Contact/Setting.php:203
+#: src/Pmpr/Module/Contact/Setting.php:186
 #, php-format
 msgid "Height of map in footer (min = %s, max = %s)."
 msgstr "ارتفاع نقشه (‌کمترین = %s، بیشترین =%s )."
 
-#: src/Pmpr/Module/Contact/Setting.php:216
-#: src/Pmpr/Module/Contact/Setting.php:220
+#: src/Pmpr/Module/Contact/Setting.php:199
+#: src/Pmpr/Module/Contact/Setting.php:203
 msgid "Address"
 msgstr "آدرس"
 
-#: src/Pmpr/Module/Contact/Setting.php:225
+#: src/Pmpr/Module/Contact/Setting.php:208
 #: src/Pmpr/Module/Contact/Widget/Direction.php:20
 msgid "Direction"
 msgstr "مسیریابی"
 
-#: src/Pmpr/Module/Contact/Setting.php:229
+#: src/Pmpr/Module/Contact/Setting.php:212
 msgid "Items"
 msgstr "آیتم‌ها"
+
+#: src/Pmpr/Module/Contact/Setting.php:242
+msgid "Google Map Location"
+msgstr "نقشه مکانی گوگل مپ"
 
 #: src/Pmpr/Module/Contact/Widget/Direction.php:21
 msgid "Display the direction links."
