@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             681a83013ee4b             |
+    |             682fc6cf0ef99             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Contact; use Pmpr\Common\Foundation\Container\ModuleInitiator; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\Contact\Model\Submission; use Pmpr\Module\Contact\Widget\Direction; use Pmpr\Module\Contact\Widget\Information; use Pmpr\Module\Contact\Widget\Map; use Pmpr\Module\Contact\Widget\Social; class Contact extends ModuleInitiator { public function register() { $this->gkieogwukagigisy(__DIR__, [Constants::qescuiwgsyuikume => static function () { return __('Contact', PR__MDL__CONTACT); }, Constants::sguyaymiiiiewame => Setting::class]); } public function mameiwsayuyquoeq() { Hook::ksyueceqagwomguk(); $owaoeyikmqaeegma = $this->caokeucsksukesyo()->owicscwgeuqcqaig(); if ($owaoeyikmqaeegma->awumyiewiaosiyyy()) { Submission::symcgieuakksimmu(); } if ($owaoeyikmqaeegma->mcgoysmkqsqooceq(Ajax::qukgcoyyiwauoiom)) { Ajax::symcgieuakksimmu(); } if ($owaoeyikmqaeegma->gaawugksaskamooe()) { Map::symcgieuakksimmu(); Social::symcgieuakksimmu(); Direction::symcgieuakksimmu(); Information::symcgieuakksimmu(); } if ($owaoeyikmqaeegma->ligksaggegsygqwo()) { Page::symcgieuakksimmu(); } } public function aqyikqugcomoqqqi() { $qgiimcueymgqcsai = $this->caokeucsksukesyo()->cqusmgskowmesgcg(); if ($qgiimcueymgqcsai->iqqgmieeqemiowuk('structured-data')) { StructuredData::symcgieuakksimmu(); } if ($qgiimcueymgqcsai->iqqgmieeqemiowuk('security')) { Security::symcgieuakksimmu(); } } }
